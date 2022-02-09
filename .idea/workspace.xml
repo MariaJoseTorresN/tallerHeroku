@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0aacb615-6493-4794-98f3-dedf002767cc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin" beforeDir="false" afterPath="$PROJECT_DIR$/bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/.idea/compiler.xml" beforeDir="false" />
@@ -36,8 +35,6 @@
       <change beforePath="$PROJECT_DIR$/bin/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/src/main/java/edu/escuelaing/arep/SparkWebApp.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/src/test/java/edu/escuelaing/arep/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/escuelaing/arep/SparkWebApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/escuelaing/arep/SparkWebApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/escuelaing/arep/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/escuelaing/arep/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

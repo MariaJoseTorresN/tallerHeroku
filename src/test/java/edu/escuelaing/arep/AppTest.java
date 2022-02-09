@@ -1,12 +1,10 @@
 package edu.escuelaing.arep;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
 
 import edu.escuelaing.arep.temperatura.*;
+import org.junit.Assert;
+import org.junit.Test;
 
-import static junit.framework.Assert.assertEquals;
 
 /**
  * Unit test for simple App.
@@ -19,7 +17,7 @@ public class AppTest{
     @Test
     public void CelsiusAFarenheit(){
         celsius = new Celsius(10);
-        assertEquals(celsius.getFahrenheit(10),50);
+        Assert.assertEquals(celsius.getFahrenheit(10),50);
 
     }
 
