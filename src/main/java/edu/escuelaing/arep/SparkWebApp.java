@@ -14,15 +14,13 @@ public class SparkWebApp {
             res.redirect("/index.html");
             return null;
         });
-
-        path("/temperatura",()->{
             get("/Celsius","application/json",(req,res)->{
                return new Celsius(Double.valueOf(req.queryParams("value"))).getCelsius();
             });
             get("/Fahrenheit","application/json",(req,res)->{
                 return new Fahrenheit(Double.valueOf(req.queryParams("values"))).getFahrenheit();
             });
-        });
+
     }
 
     static int getPort() {
