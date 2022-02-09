@@ -9,6 +9,11 @@ public class SparkWebApp {
     public static void main(String[] args) {
         port(getPort());
         staticFiles.location("/web");
+        init();
+        get("/", (req, res) -> {
+            res.redirect("/index.html");
+            return null;
+        });
 
         path("/temperatura",()->{
             get("/Celsius","application/json",(req,res)->{

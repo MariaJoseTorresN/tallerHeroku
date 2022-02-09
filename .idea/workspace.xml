@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aacb615-6493-4794-98f3-dedf002767cc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin" beforeDir="false" afterPath="$PROJECT_DIR$/bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/.idea/.gitignore" beforeDir="false" />
@@ -35,6 +36,8 @@
       <change beforePath="$PROJECT_DIR$/bin/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/src/main/java/edu/escuelaing/arep/SparkWebApp.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/src/test/java/edu/escuelaing/arep/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/escuelaing/arep/SparkWebApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/escuelaing/arep/SparkWebApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/escuelaing/arep/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/escuelaing/arep/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +67,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SparkWebApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.escuelaing.arep.SparkWebApp" />
+      <module name="SparkWebApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.escuelaing.arep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SparkWebApp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

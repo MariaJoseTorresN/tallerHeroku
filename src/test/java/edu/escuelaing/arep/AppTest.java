@@ -6,35 +6,21 @@ import junit.framework.TestSuite;
 
 import edu.escuelaing.arep.temperatura.*;
 
+import static junit.framework.Assert.assertEquals;
+
 /**
  * Unit test for simple App.
  */
-public class AppTest extends TestCase {
+public class AppTest{
 
     Celsius celsius;
     Fahrenheit fahrenheit;
 
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest(String testName) {
-        super(testName);
+    @Test
+    public void CelsiusAFarenheit(){
+        celsius = new Celsius(10);
+        assertEquals(celsius.getFahrenheit(10),50);
+
     }
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite() {
-        return new TestSuite(AppTest.class);
-    }
-
-    /**
-     * Rigourous Test :-)
-     */
-    public void testCelsiusAFahrenheit() {
-        celsius.getFahrenheit(10);
-        assertTrue(true);
-    }
 }
