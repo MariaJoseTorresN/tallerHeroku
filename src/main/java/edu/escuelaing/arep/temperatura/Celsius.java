@@ -8,12 +8,12 @@ public class Celsius {
         this.celsius = celsius;
     }
 
-    public double getCelsius() {
-        return celsius;
+    public String getCelsius() {
+        return "{ celsius:"+celsius+"}";
     }
 
-    public double getFahrenheit(double celsius) {
+    public String getFahrenheit(double celsius) {
         fahrenheit = (celsius * 9 / 5) + 32;
-        return fahrenheit;
+        return "{ fahrenheit:"+fahrenheit+"}";
     }
 }
